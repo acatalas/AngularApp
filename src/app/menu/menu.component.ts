@@ -11,7 +11,6 @@ import { DISHES } from '../shared/dishes';
 export class MenuComponent implements OnInit {
 
   dishes: Dish[] = DISHES;
-
   selectedDish: Dish;
 
   constructor() { }
